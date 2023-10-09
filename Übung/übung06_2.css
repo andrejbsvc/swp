@@ -35,14 +35,16 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 100px;
-    
+
 
 }
 
-.container-2 > .box-1, .container-2 > .box-2, .container-2 > .box-3 {
+.container-2>.box-1,
+.container-2>.box-2,
+.container-2>.box-3 {
     border: solid;
     background-color: green;
     width: 40px;
     height: 20px;
-    
+
 }
