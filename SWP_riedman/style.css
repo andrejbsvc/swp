@@ -1,0 +1,58 @@
+.container {
+    position: relative;
+    background-color: lightblue;
+    margin-top: 20px;
+    margin: 20px;
+    height: 300px;
+    width: 400px;
+
+
+
+}
+
+.header {
+    padding: 20px;
+}
+
+
+
+.container2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: orange;
+    display: flex;
+    height: 100px;
+    width: 100px;
+
+}
+
+.container3 {
+    background-color: purple;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+
+}
+
+.container4 {
+    background-color: yellow;
+    top: 50px;
+    justify-content: space-around;
+    display: flex;
+    height: 150px;
+    align-items: center;
+   margin-top: 50px;
+
+
+}
+
+.box {
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    
+}
