@@ -1,4 +1,4 @@
-.container1 {
+.container-1 {
     height: 400px;
     width: 400px;
     position: relative;
@@ -28,9 +28,45 @@
 .box3 {
     height: 300px;
     width: 200px;
-    background-color: lightblue;
     position: absolute;
     right: 0px;
     top: 0px;
+    background-color: lightblue;
+}
+
+.item-1 {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    background-color: black;
+
+}
+
+.container-2 {
+    display: flex;
+
+}
+
+
+.container-3 {
+    height: 250px;
+    width: 250px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+
+}
+
+.item-2 {
+    height: 75px;
+    width: 75px;
+    background-color: orangered;
     
 }
