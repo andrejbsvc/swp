@@ -1,0 +1,48 @@
+.container-1 {
+    background-color: lightblue;
+    height: 400px;
+    width: 200px;
+    position: relative;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.item-1 {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+
+}
+
+.item-2 {
+    background-color: green;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+}
+
+.container-2 {
+    width: 80%;
+    height: 50px;
+    border: solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    
+
+}
+
+.container-2 > .box-1, .container-2 > .box-2, .container-2 > .box-3 {
+    border: solid;
+    background-color: green;
+    width: 40px;
+    height: 20px;
+    
+}
