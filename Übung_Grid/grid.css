@@ -1,0 +1,30 @@
+.box {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+    padding: 100px;
+
+}
+
+.item {
+    background-color: blue;
+    height: 250px;
+   
+}
+
+.container2 {
+   display: grid;
+   grid-template-columns: 100px 100px 100px;
+   grid-template-rows: 100px 100px 100px;
+   column-gap: 10px;
+   padding: 100px;
+   
+   
+}
