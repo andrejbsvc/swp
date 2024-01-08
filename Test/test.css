@@ -1,0 +1,83 @@
+.container1 {
+    border: solid 1.5px ;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    display: flex;  
+    right: 0;
+    top: 0;
+    margin: 10px;
+
+    
+
+}
+
+.item1 {
+   background-color: green;
+    width:  200px;
+    height: 200px;
+    position: absolute;
+    
+
+}
+
+.item2 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.item3 {
+    width: 400px;
+    height: 200px;
+    background-color: orange;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.item4 {
+    height: 75px;
+    width: 75px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+
+.box {
+    background-color: orangered;
+    height: 85px;
+    width: 85px;
+    display: flex;
+    
+}
+
+
+.container2 {
+    border: solid 2px ;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+    justify-content: center ;
+    display: flex;
+  
+
+}
+
+.kiste {
+    background-color: orange;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+
+}
