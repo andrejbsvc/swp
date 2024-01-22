@@ -1,0 +1,73 @@
+.container {
+    width: 1050px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+    border: solid 2.5px ;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box1 {
+    background-color: lightgreen;
+    height: 75px;
+    width: 75px;
+    position: absolute;
+
+}
+
+
+
+.cube {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: green;
+    height: 80px;
+    width: 80px;
+    border: solid 2.5px ;
+}
+
+.item1 {
+    width: 50px;
+    height: 50px;
+    background-color: lightgreen;
+
+}
+
+.item2 {
+    width: 50px;
+    height: 50px;
+    background-color: lightgreen;
+
+}
+
+.item3 {
+    width: 50px;
+    height: 50px;
+    background-color: lightgreen;
+
+}
+
+.container2 {
+    background-color: blueviolet;
+    width: 300px;
+    height: 150px;
+    margin: 5px;
+    position: relative;
+    border: solid 2.5px ;
+    
+
+}
+
+.violettcube {
+    background-color: black;
+    height: 50px;
+    width: 50px;    
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
