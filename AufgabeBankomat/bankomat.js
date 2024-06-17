@@ -19,51 +19,52 @@ let balance = 0;
 mainmenu();
  
 async function mainmenu() {
-    console.log("Selektieren sie die gewünschte Funktion");
-    console.log("1. Einzahlen");
-    console.log("2. Abheben");
-    console.log("3. Kontostand");
-    console.log("4. Beenden");
+    console.log("Izaberite Funktiu koju ocete da uzmete");
+    console.log("1. Uplatiti");
+    console.log("2. Podigniti");
+    console.log("3. Racun");
+    console.log("4. Kraj");
     let selection = await readLineAsync();
     switch(selection) {
         case "1":
-            await Einzahlen();
+            await aPaymentIn();
             break;
         case "2":
-            await Abheben();
+            await getMoneyfromBalance();
             break;
         case "3":
-            Kontostand();
+            checkBalance();
             break;
         case "4":
-            Beenden();
+            Stop();
             break;
     }
 }
+
  
-async function Einzahlen() {
-    console.log("Wie viel möchten sie einzahlen?");
+async function aPaymentIn() {
+    console.log("Koliko ocete da uplatite?");
     let amount = await readLineAsync();
     balance += parseInt(amount);;
-    console.log(`Ihr neuer Kontostand beträgt ${balance}`);
+    console.log(`Vas novi Racun je sad kod ${balance}`);
     mainmenu();
 }
  
-async function Abheben() {
-    console.log("Wie viel möchten sie abheben?");
+async function getMoneyfromBalance() {
+    console.log("Koliko ocete da podignete?");
     let amount = await readLineAsync();
     balance -= parseInt(amount);
-    console.log(`Ihr neuer Kontostand beträgt ${balance}`);
+    console.log(`Vas novi Racun je sad kod ${balance}`);
     mainmenu();
 }
  
-function Kontostand() {
-    console.log(`Ihr Kontostand beträgt ${balance}`);
+function checkBalance() {
+    console.log(`Vas Racun je sad kod ${balance}`);
     mainmenu();
 }
  
-function Beenden() {
-    console.log("Machine is stopping...");
+function Stop() {
+    console.log("Masina se gasi...");
     readline.close();
     process.exit();
 }
